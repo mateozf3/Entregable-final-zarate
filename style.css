@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#productos, #carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+#productos {
+    padding: 20px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.contenedor {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    aspect-ratio: 7 / 9;
+}
+
+.boton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+#carrito {
+    padding: 20px;
+    position: relative;
+}
+
+#vaciar-carrito, #comprar, #terminar-compra, #cancelar-compra {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+}
+
+#vaciar-carrito:hover, #comprar:hover, #terminar-compra:hover, #cancelar-compra:hover {
+    background-color: #218838;
+}
+
+#total-compra {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#carrito-items {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    margin: 10px 10px 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#carrito-items .mensaje-vacio {
+    font-size: 18px;
+    color: #666;
+    font-style: italic;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 600px;
+}
+
+#carrito-contenedor {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1290px;
+    margin: 20px auto;
+    position: relative;
+}
